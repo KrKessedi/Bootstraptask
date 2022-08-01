@@ -25,9 +25,7 @@
     }
 }
 @media all and (max-width:550px) {
-    h1 {
-        font-size: 25px!important;
-    }
+   
     .big {
         font-size: 12px;
     }
@@ -73,10 +71,16 @@
     .btn2 {
         margin-bottom: -10px!important;
     }
-    .h1 {
-        font-size: 17px!important;
+    h1 {
+        font-size: 15px!important;
     }
     .gg {
         height: 60%!important;
+    }
+    .btn1 {
+        --bs-btn-font-size: 0.5rem!important;
+    }
+    .big {
+        font-size: 9px!important;
     }
 }
